@@ -35,3 +35,15 @@ for (const item of precios){
     template += '<li>' + item + '</li>'
 }
 lista.innerHTML = template
+
+
+const datos = [1200, 350, 1500, 1400, 250, 5000, 1950, 1952]
+const d = document.getElementById("datos")
+
+let  template2 =""
+for (let valor of datos) {
+    if (valor > 1000 && valor <2000){
+        template2+=`<li>${valor}</li>`
+    }
+}
+d.innerHTML = template2
