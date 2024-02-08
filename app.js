@@ -24,3 +24,14 @@ const add = document.getElementById("nombres")
 for (const item of data) {
     add.innerHTML+= '<li>' + item + '</li>'
 }
+
+// ejercicio 2.2 for of evitando actualizar el dom innecesariamente
+
+const precios = [1000, 2500, 3100, 4800, 7500]
+const lista = document.getElementById("precios")
+
+let template = ""
+for (const item of precios){
+    template += '<li>' + item + '</li>'
+}
+lista.innerHTML = template
