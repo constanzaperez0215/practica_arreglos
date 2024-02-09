@@ -95,3 +95,17 @@ const estudiantes = [
 
     console.log(computador["marca"])
     console.log(casa.direccion)
+
+    // accediendo a los datos de un objeto
+
+    const persona = {
+        nombre: "Pedro",
+        apellido: "Perez",
+        profesion: "Frontend Developer",
+        hobby: "Trekking",
+        añoDeNacimiento: 1988,
+        }
+
+        console.log(persona["añoDeNacimiento"])
+        console.log(persona.apellido)
+        
