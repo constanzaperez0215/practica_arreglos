@@ -109,3 +109,28 @@ const estudiantes = [
         console.log(persona["añoDeNacimiento"])
         console.log(persona.apellido)
         
+        // actividad 7 -- tarjeta de producto
+
+        // const tarjeta = {
+        //     id: 43,
+        //     titulo: "Cafetera magnética",
+        //     precio: 23990,
+        //     color: "rojo",
+        //     src: "https://pixabay.com/es/photos/caf%C3%A9-cafeter%C3%ADa-madera-caliente-2589761/", // ingresa aquí la URL de la imagen,
+        //     descripción: "Calienta tu café matutino con la nueva tecnología magnética"
+        // };
+
+        // const tarjetas = document.querySelector("#tarjeta")
+
+        // const info = `
+        //     <section id="cafeteras">
+        //         <h2>${tarjeta.titulo} </h2>
+        //         <h5> ${tarjeta.precio} </h5>
+        //         <p> ${tarjeta.color} </p>
+        //         <img src ="${tarjeta.src}">
+        //         <p> ${tarjeta.descripción} </p>
+        //     </section>
+        // `;
+        // tarjetas.innerHTML = info
+
+        
