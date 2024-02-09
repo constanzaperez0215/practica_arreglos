@@ -44,6 +44,54 @@ let  template2 =""
 for (let valor of datos) {
     if (valor > 1000 && valor <2000){
         template2+=`<li>${valor}</li>`
+        d.style.backgroundColor = "green"
+    }else{
+        d.style.backgroundColorcolor ="red"
     }
 }
 d.innerHTML = template2
+
+
+const estudiantes = [
+    ["Francisca", 10, 8, 10],
+    ["Camila", 9, 9, 10, 9],
+    ["Patricio", 7, 9, 9, 6, 10, 10],
+    ["Pedro", 8, 8, 10]
+    ];
+    let html = ""
+    for (let estudiante of estudiantes) {
+    html += `<p>`
+    for (let nota of estudiante){
+    html += ` ${nota} `
+    }
+    html += `</p>`
+    }
+    const body = document.querySelector("body")
+    body.innerHTML = html
+
+
+    //  Arrego de objetos
+
+    const guitarra = {
+        cuerdas: 6,
+        color: "azul",
+        año: 1994
+    }
+
+    const computador = {
+        marca: "asus",
+        ram : "16GB",
+        so: "Windows",
+        tipo: "gamer"
+    }
+
+    const casa = {
+        habitaciones: 4,
+        baños : 2,
+        patio: 1,
+        garage: 1,
+        direccion: "calle San Diego 8081"
+    }
+
+    console.log(computador["marca"])
+    console.log(casa.direccion)
